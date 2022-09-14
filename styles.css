@@ -147,22 +147,6 @@ button {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-@media only screen and (min-width: 800px) {
-  #histories{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    text-align: center;
-  }
-  }
-  @media only screen and (max-width:600px) {
-    #histories{
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-gap: 20px;
-      text-align: center;
-    }
-    }
 
 .card {
   text-align: center;
@@ -211,3 +195,20 @@ button {
     flex-direction: column;
   }
 }
+
+@media only screen and (min-width: 800px) {
+  #histories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+  }
+  }
+  @media only screen and (max-width:600px) {
+    #histories{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 20px;
+      text-align: center;
+    }
+    }
