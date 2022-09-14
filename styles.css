@@ -196,7 +196,7 @@ button {
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 940px) {
   #histories{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -204,11 +204,3 @@ button {
     text-align: center;
   }
   }
-  @media only screen and (max-width:600px) {
-    #histories{
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-gap: 20px;
-      text-align: center;
-    }
-    }
