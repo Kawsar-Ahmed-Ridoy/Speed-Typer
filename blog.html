@@ -78,7 +78,7 @@
                   aria-expanded="false"
                   aria-controls="flush-collapseFour"
                 >
-                  
+                What is local scope and global scope in JavaScript?
                 </button>
               </h2>
               <div
@@ -88,7 +88,24 @@
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
-                  
+                  because what you have here is a local scope
+                  other kinds of scope in java are class scope (for example), a member of a class has a class scope so it is accessible anywhere inside a class. <br>
+
+                  the basic rules for scope are: <br>
+
+                  1. The scope of a parameter declaration is the body of the method in which the declaration appears. <br>
+
+                  2. The scope of a local-variable declaration is from the point at which the declaration appears to the end of that block. <br>
+
+                  3. The scope of a local-variable declaration that appears in the initialization section of a for statement’s header is the body of the for statement and the other expressions in the header. <br>
+                  4. A method or field’s scope is the entire body of the class. This enables non-static methods of a class to use the fields and other methods of the class. <br>
+
+                  Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript. The two types of scope are local and global: <br>
+
+                  Global variables are those declared outside of a block
+                  Local variables are those declared inside of a block <br>
+                   
+                  the function is a local variable with the same name. By sending them to the console, we can see how the variable’s value is different depending on the scope, and the original value is not changed.
                 </div>
               </div>
             </div>
